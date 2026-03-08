@@ -1,5 +1,5 @@
 ------------------------------------------------------------
-# General
+#General
 --------------------------------------------------------------*/
 body {
   background: #fff;
@@ -725,6 +725,20 @@ h6 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+#speakers .speaker img.speaker-coord-1,
+#speakers .speaker img.speaker-coord-2 {
+  object-position: center center;
+  transform-origin: center center;
+}
+
+#speakers .speaker img.speaker-coord-1 {
+  transform: scale(1.35) translate(-25%, 8%);
+}
+
+#speakers .speaker img.speaker-coord-2 {
+  transform: scale(1.35) translate(-7%, -10%);
 }
 
 #speakers .speaker .details {
